@@ -1,6 +1,6 @@
 # Santhiram Hospitals - Virtual Appointment Booking System
 
-![Santhiram Hospitals] (https://hameedalahr.github.io/GDG-SOLUTION/htmlfiles/home.html)  <!-- Replace with your own image URL -->
+![Santhiram Hospitals] (https://hameedalahr.github.io/GDG-SOLUTION/)  <!-- Replace with your own image URL -->
 
 ## Overview
 
@@ -26,6 +26,10 @@ The **Virtual Appointment Booking System** for **Santhiram Hospitals** provides 
 - **jQuery** - For DOM manipulation and AJAX calls.
 
 ## Screenshots
+
+### 🤖 **Login Page
+The intial page lets patients to login.
+![Login Page](https://github.com/Hameedalahr/GDG-SOLUTION/blob/7700d8ffe2b680669fd81facd8ad1f28c1241005/loginpage.png)
 
 ### 🏠 **Home Page**
 The home page lets patients search for doctors by specialty and availability.
