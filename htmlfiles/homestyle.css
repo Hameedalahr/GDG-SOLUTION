@@ -204,7 +204,12 @@ footer {
         flex-direction: column;
         text-align: center;
     }
-
+    header{
+        min-width:568px;
+    }
+    .heading{
+        min-width:568px;
+    }
     .navbar {
         flex-direction: column;
     }
