@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+header {
+    background-color: #0073e6;
+    padding: 1em 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1em;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 1.5em;
+    
+}
+
+.logo img {
+    width: 150px;
+    height: 60px;
+    margin-right: 0.5em;
+    
+
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin: 0 1em;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #cce7ff;
+}
+
+
+main {
+    padding: 1em;
+}
+.appheading{
+    text-align: center;
+}
+
+section {
+    margin-bottom: 2em;
+}
+
+h2 {
+    color: #0073e6;
+}
+
+input, select, button {
+    display: block;
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    font-size: 1em;
+}
+
+button {
+    background-color: #0073e6;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #005bb5;
+}
+
+#confirmationMessage {
+    color: green;
+    font-weight: bold;
+}
+
+#appointmentsList {
+    list-style: none;
+    padding: 0;
+}
+
+#appointmentsList li {
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    margin-bottom: 0.5em;
+    background-color: #fff;
+}

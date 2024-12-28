@@ -1,0 +1,131 @@
+
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: 'Outfit', sans-serif;
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .outerbox {
+            width: 90%;
+            max-width: 800px;
+            display: flex;
+            flex-direction: row;
+            background-color: white;
+            border-radius: 25px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.6);
+            overflow: hidden;
+        }
+        .box1, .box2 {
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .box1 {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            flex: 1;
+        }
+        .social {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin: 10px 0;
+        }
+        .social div {
+            background-color: white;
+            border: 1px solid rgb(234, 232, 232);
+            height: 30px;
+            width: 30px;
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+        }
+        .social div:hover {
+            background-color: rgb(99, 94, 255);
+            color: white;
+        }
+        .holders {
+            margin-bottom: 10px;
+            background-color: rgb(234, 232, 232);
+            border: 1px solid transparent;
+            width: 100%;
+            max-width: 300px;
+            height: 30px;
+            text-align: center;
+            border-radius: 5px;
+        }
+        .holders:hover {
+            border: 1.5px solid black;
+        }
+        .signin {
+            border: 1px solid transparent;
+            background-color: rgb(99, 94, 255);
+            color: white;
+            width: 120px;
+            height: 30px;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+        .signin:hover {
+            background-color: white;
+            color: rgb(99, 94, 255);
+            border: 1px solid rgb(99, 94, 255);
+        }
+        .box2 {
+            background-color: rgb(99, 94, 255);
+            color: white;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            border-top-left-radius: 105px;
+            border-bottom-left-radius: 105px;
+        }
+        .signup {
+            width: 150px;
+            height: 40px;
+            color: white;
+            border-radius: 10px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 1.5px solid white;
+            background-color: rgb(99, 94, 255);
+            cursor: pointer;
+        }
+        .signup:hover {
+            background-color: white;
+            color: rgb(99, 94, 255);
+        }
+        @media (max-width: 768px) {
+            .outerbox {
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+            .box2 {
+                border-top-left-radius: 25px;
+                border-bottom-left-radius: 25px;
+                border-top-right-radius: 25px;
+                border-bottom-right-radius: 25px;
+            }
+        }
+        @media (max-width: 480px) {
+            .holders {
+                max-width: 100%;
+            }
+            .signin, .signup {
+                width: 100%;
+                max-width: 200px;
+            }
+        }

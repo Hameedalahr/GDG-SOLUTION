@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Appointment Booking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="images/santhiramlogo.png" alt="Hospital Logo">
+                <span>Santhiram Hospitals</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="appointments.html">Appointments</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="appheading" >
+        <h1>Virtual Appointment Booking System</h1>
+        <p>Find and book appointments with ease.</p>
+    </div>
+
+    <main>
+        <section id="search">
+            <h2>Search for Doctors</h2>
+            <input type="text" id="doctorSearch" placeholder="Search by name, specialty, or location">
+            <button onclick="searchDoctors()">Search</button>
+        </section>
+
+        <section id="appointment">
+            <h2>Book an Appointment</h2>
+            <form id="appointmentForm">
+                <label for="doctor">Doctor:</label>
+                <select id="doctor" required>
+                    <option value="">Select a doctor</option>
+                </select>
+
+                <label for="timeSlot">Time Slot:</label>
+                <select id="timeSlot" required>
+                    <option value="">Select a time slot</option>
+                </select>
+
+                <label for="patientName">Your Name:</label>
+                <input type="text" id="patientName" required>
+
+                <label for="contact">Contact Info:</label>
+                <input type="text" id="contact" required>
+
+                <button type="submit">Book Appointment</button>
+            </form>
+            <p id="confirmationMessage"></p>
+        </section>
+
+        <section id="myAppointments">
+            <h2>My Appointments</h2>
+            <ul id="appointmentsList"></ul>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
