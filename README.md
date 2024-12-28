@@ -18,16 +18,16 @@ The **Virtual Appointment Booking System** for **Santhiram Hospitals** allows pa
 [![HTML](https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white)](https://github.com/jigar-sable/Portfolio-Website/search?l=html)&nbsp;
 [![CSS](https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white)](https://github.com/jigar-sable/Portfolio-Website/search?l=css)&nbsp;
 [![JS](https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)](https://github.com/jigar-sable/Portfolio-Website/search?l=javascript)
-##Home page
+#Home page
 <img alt="jQuery" src="https://github.com/Hameedalahr/GDG-SOLUTION/blob/4e69070e2e80723467e1491499ea09d89b1fc268/homepage.png"/>
 
-##Santhiram chatbot
+#Santhiram chatbot
 <img alt="jQuery" src="https://github.com/Hameedalahr/GDG-SOLUTION/blob/ec9929a365836589d691e8d7ba7c5afc0b623e17/chatbot.png"/>
 
 #About page
 <img alt="jQuery" src="https://github.com/Hameedalahr/GDG-SOLUTION/blob/ec9929a365836589d691e8d7ba7c5afc0b623e17/aboutpage.png"/>
 
-##Appointment page
+#Appointment page
 <img alt="jQuery" src="https://github.com/Hameedalahr/GDG-SOLUTION/blob/ec9929a365836589d691e8d7ba7c5afc0b623e17/appointmentpage.png"/>
 ## Installation
 
