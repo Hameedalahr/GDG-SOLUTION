@@ -205,10 +205,10 @@ footer {
         text-align: center;
     }
     header{
-        min-width:568px;
+        min-width:668px;
     }
     .heading{
-        min-width:568px;
+        min-width:668px;
     }
     .navbar {
         flex-direction: column;
